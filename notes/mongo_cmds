@@ -1,0 +1,12 @@
+
+use test
+
+db.restaurant.createIndex(fieldname : "text")
+
+db.restaurant.dropIndex(fieldname : "text")
+
+db.restaurant.find()
+
+for (var i = 0; i < 15; i++) {
+  db.restaurant.insert({ number : i })
+}
