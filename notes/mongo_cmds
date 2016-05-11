@@ -10,3 +10,14 @@ db.restaurant.find()
 for (var i = 0; i < 15; i++) {
   db.restaurant.insert({ number : i })
 }
+
+EDITOR="/bin/vim"
+
+edit moveit (func name)
+
+function moveit(doc) {
+  db.restaurant.insert(doc)
+  db.restaurant.remove(doc)
+}
+
+# https://www.compose.io/articles/how-i-stopped-worrying-and-learned-to-love-the-mongo-shell/
