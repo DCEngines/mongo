@@ -1,0 +1,4 @@
+
+./ldb list_column_families /mnt/data/db/db
+
+./ldb dump --column_family=default --db=/mnt/data/db/db
