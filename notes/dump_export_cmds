@@ -1,0 +1,10 @@
+
+$ bin/mongoexport -p 27000 -d test -c c
+2016-05-13T16:49:12.377+0530  connected to: localhost
+{"_id":{"$oid":"5735b70cde898037c35b5a04"},"m":"M"}
+{"_id":{"$oid":"5735b70fde898037c35b5a05"},"b":"M"}
+{"_id":{"$oid":"5735b712de898037c35b5a06"},"a":"M"}
+{"_id":{"$oid":"5735b714de898037c35b5a07"},"d":"M"}
+
+# mongodump by default dumps  into "./dump/test/" dir
+$ bin/mongodump -p 27000 -d test
