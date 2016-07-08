@@ -21,3 +21,18 @@ function moveit(doc) {
 }
 
 # https://www.compose.io/articles/how-i-stopped-worrying-and-learned-to-love-the-mongo-shell/
+
+
+db.products.insert(
+   [
+     { _id: 11, item: "pencil", qty: 50, type: "no.2" },
+     { item: "pen", qty: 20 },
+     { item: "eraser", qty: 25 }
+   ]
+)
+
+db.products.insertMany( [
+      { item: "envelopes", qty: 60 },
+      { item: "stamps", address: "10 shtick lane" },
+      { item: "packing tape", country : "mongolia" }
+   ] );

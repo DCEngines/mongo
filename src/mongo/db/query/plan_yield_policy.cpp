@@ -51,6 +51,7 @@ bool PlanYieldPolicy::shouldYield() {
     invariant(!_planYielding->getOpCtx()->lockState()->inAWriteUnitOfWork());
     if (_forceYield)
         return true;
+    // SANDEEP return false if u are running mongo in debugger
     return _elapsedTracker.intervalHasElapsed();
 }
 
