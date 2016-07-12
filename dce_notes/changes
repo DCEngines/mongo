@@ -1,0 +1,10 @@
+
+For debugging
+*. disable SIGTERM and SIGINT
+    src/mongo/util/signal_handlers.cpp
+*. disable timer in PlanYieldPolicy
+    src/mongo/db/query/plan_yield_policy.cpp
+*. disable TTLTimer
+    src/mongo/db/ttl.cpp
+
+

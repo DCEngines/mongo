@@ -1,0 +1,10 @@
+
+jstests/core
+
+all
+all2
+and
+and3
+andor
+array_match4
+batch_size
