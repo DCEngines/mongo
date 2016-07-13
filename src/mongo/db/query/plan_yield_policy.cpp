@@ -52,7 +52,8 @@ bool PlanYieldPolicy::shouldYield() {
     if (_forceYield)
         return true;
     // SANDEEP return false if u are running mongo in debugger
-    return _elapsedTracker.intervalHasElapsed();
+    return false;
+    // SANDEEP return _elapsedTracker.intervalHasElapsed();
 }
 
 void PlanYieldPolicy::resetTimer() {

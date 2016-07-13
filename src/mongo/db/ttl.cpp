@@ -328,7 +328,7 @@ TTLMonitor* ttlMonitor = nullptr;
 
 void startTTLBackgroundJob() {
     ttlMonitor = new TTLMonitor();
-    ttlMonitor->go();
+    //SANDEEP ttlMonitor->go();
 }
 
 string TTLMonitor::secondsExpireField = "expireAfterSeconds";

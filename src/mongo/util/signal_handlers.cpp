@@ -199,8 +199,8 @@ void setupSignalHandlers() {
     sigemptyset(&asyncSignals);
     sigaddset(&asyncSignals, SIGHUP);
     //SANDEEP disable these two if running in debugger
-    sigaddset(&asyncSignals, SIGINT);
-    sigaddset(&asyncSignals, SIGTERM);
+    //sigaddset(&asyncSignals, SIGINT);
+    //sigaddset(&asyncSignals, SIGTERM);
     sigaddset(&asyncSignals, SIGUSR1);
     sigaddset(&asyncSignals, SIGXCPU);
 #endif
@@ -214,7 +214,7 @@ void startSignalProcessingThread() {
     invariant(pthread_sigmask(SIG_SETMASK, &asyncSignals, 0) == 0);
     // Spawn a thread to capture the signals we just masked off.
     //SANDEEP disable if running in debugger
-    stdx::thread(signalProcessingThread).detach();
+    //stdx::thread(signalProcessingThread).detach();
 #endif
 }
 
