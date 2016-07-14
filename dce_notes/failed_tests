@@ -1,10 +1,32 @@
 
 jstests/core
 
-all
-all2
-and
-and3
-andor
-array_match4
-batch_size
+Tests categorized by their starting char of file -> "a*.js"
+
+========
+
+apitest_db.js
+
+not all..
+
+========o
+
+batch_write_command_delete - verify
+
+========o
+fts* - pass
+========o
+
+index*.js - pass
+stopped between
+
+====
+o - all pass
+stopped oro.js and orp.js - run too long
+====
+u
+====
+v - all pass
+==
+w- all pass
+==
