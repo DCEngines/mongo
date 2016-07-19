@@ -1,0 +1,47 @@
+
+$ git clone rocksdb-private
+$ cd rocksdb-private
+$ git checkout final
+$ make static_lib
+$ make install
+
+==========
+
+$ git clone mongo
+$ git checkout v3.2
+
+$ git clone mongo-rocks
+$ git checkout v3.2
+
+create the symbolic link
+
+In mongo, make "src/mongo/db/modules/rocks" point to "mongo-rocks directory"
+
+lrwxrwxrwx 1 dce dce 30 May 10 13:35 src/mongo/db/modules/rocks ->
+/home/dce/sandeep/mongo-rocks/
+
+Run ./scons.sh (this runs with address sanitizer on)
+$ ./scons.sh
+
+============
+HOW TO RUN
+
+First start repl_server in examples/rocksdb
+
+$ repl_server 
+this will start listening on port 8192
+
+Go to mongo dir
+ensure mongo.conf has 
+-----------
+storage:
+  rocksdb.replPort : 8192
+  rocksdb.replAddr : 127.0.0.1
+-----------
+
+$ ./run-mongo.sh
+
+this will start mongod server which will connect to repl_server
+
+
+
