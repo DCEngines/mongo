@@ -1,32 +1,78 @@
-
-jstests/core
-
-Tests categorized by their starting char of file -> "a*.js"
-
-========
-
-apitest_db.js
-
-not all..
-
-========o
-
-batch_write_command_delete - verify
-
-========o
-fts* - pass
-========o
-
-index*.js - pass
-stopped between
-
-====
-o - all pass
-stopped oro.js and orp.js - run too long
-====
-u
-====
-v - all pass
-==
-w- all pass
-==
+failures from jstests/core
+apitest_dbcollection.js
+auth1.js
+bench_test1.js
+bindata_indexonly.js
+bittest.js
+bypass_doc_validation.js
+batch_write_command_delete - had failed before
+constructors.js
+capped6
+capped_empty
+capped_update
+check_shard_index
+collection_truncate
+compact_keep_indexes
+count10
+count_plan_summary
+coveredIndex1
+coveredIndex2
+covered*
+currentop
+cursora
+dbadmin
+distinct3
+drop2
+evalc
+evald
+explain_distinct
+explain_shell_helpers
+find_and_modify_concurrent_update
+fsync
+fts1-6
+fts_casesensitive
+fts_diacriticsen*
+fts_index_version2
+fts_mix
+fts_partition1
+fts_spanish
+geo_2d_with_geojson
+geo_2d_with_geojson_point
+geo_max
+geo_near_random1
+geo_near_random2
+geo_small_large
+geo_update_btree
+geo_group7
+hashindex1.js
+hashtest1.js
+index_check2
+index_check6.js 
+indexOtherNamespace
+index_partial_read_ops
+index_stats
+kill_cursors
+killop
+loadserverscripts
+max_time_ms
+mr_killop
+or2
+or3
+queryoptimizer3
+remove9
+removeb
+removec
+return_key
+shellstartparallel
+stages_and_hash
+stages_and_sorted
+stages_delete
+stages_fetch
+stages_ixscan
+stages_limit_skip
+stages_mergesort
+stages_or
+stages_text
+startup_log
+test_command_line_test_helpers
+updatef
