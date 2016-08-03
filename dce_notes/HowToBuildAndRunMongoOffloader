@@ -1,17 +1,17 @@
 
-$ git clone rocksdb-private
+$ git clone https://www.github.com/dcengines/rocksdb-private
 $ cd rocksdb-private
-$ git checkout final
+$ git checkout --track origin/sandeep
 $ make static_lib
 $ make install
 
 ==========
 
-$ git clone mongo
-$ git checkout v3.2
+$ git clone https://www.github.com/dcengines/mongo
+$ git checkout --track origin/v3.2
 
-$ git clone mongo-rocks
-$ git checkout v3.2
+$ git clone https://www.github.com/dcengines/mongo-rocks-private
+$ git checkout --track origin/v3.2
 
 create the symbolic link
 
