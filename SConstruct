@@ -836,6 +836,9 @@ envDict = dict(BUILD_ROOT=buildDir,
 env = Environment(variables=env_vars, **envDict)
 del envDict
 
+env.Append(CPPPATH=[ '/home/dce/sandeep/mooshakdb/install/include'])
+env.Append(LIBPATH=[ '/home/dce/sandeep/mooshakdb/install/lib'])
+
 env.AddMethod(env_os_is_wrapper, 'TargetOSIs')
 env.AddMethod(env_get_os_name_wrapper, 'GetTargetOSName')
 
