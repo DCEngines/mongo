@@ -1,0 +1,13 @@
+One way to run a test for mongodb is just to invoke the testfile with
+mongo shell:
+
+    mongo <testfile.js> 
+
+from mongo installation directory.
+
+For example:
+
+    mongo jstests/core/all.js
+
+To run all the tests, you can have list of these commands in a script
+and run the script. Sample script is run_tests in this directory.

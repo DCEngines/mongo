@@ -1,0 +1,1646 @@
+echo running all2.js
+/home/jay/mongo/mongo jstests/core/all2.js
+echo running all3.js
+/home/jay/mongo/mongo jstests/core/all3.js
+echo running all4.js
+/home/jay/mongo/mongo jstests/core/all4.js
+echo running all5.js
+/home/jay/mongo/mongo jstests/core/all5.js
+echo running all.js
+/home/jay/mongo/mongo jstests/core/all.js
+echo running and2.js
+/home/jay/mongo/mongo jstests/core/and2.js
+echo running and3.js
+/home/jay/mongo/mongo jstests/core/and3.js
+echo running and.js
+/home/jay/mongo/mongo jstests/core/and.js
+echo running andor.js
+/home/jay/mongo/mongo jstests/core/andor.js
+#echo running apitest_dbcollection.js
+#/home/jay/mongo/mongo jstests/core/apitest_dbcollection.js
+echo running apitest_db.js
+/home/jay/mongo/mongo jstests/core/apitest_db.js
+echo running apply_ops1.js
+/home/jay/mongo/mongo jstests/core/apply_ops1.js
+echo running apply_ops2.js
+/home/jay/mongo/mongo jstests/core/apply_ops2.js
+echo running apply_ops_dups.js
+/home/jay/mongo/mongo jstests/core/apply_ops_dups.js
+echo running array1.js
+/home/jay/mongo/mongo jstests/core/array1.js
+echo running array3.js
+/home/jay/mongo/mongo jstests/core/array3.js
+echo running array4.js
+/home/jay/mongo/mongo jstests/core/array4.js
+echo running arrayfind1.js
+/home/jay/mongo/mongo jstests/core/arrayfind1.js
+echo running arrayfind2.js
+/home/jay/mongo/mongo jstests/core/arrayfind2.js
+echo running arrayfind3.js
+/home/jay/mongo/mongo jstests/core/arrayfind3.js
+echo running arrayfind4.js
+/home/jay/mongo/mongo jstests/core/arrayfind4.js
+echo running arrayfind5.js
+/home/jay/mongo/mongo jstests/core/arrayfind5.js
+echo running arrayfind6.js
+/home/jay/mongo/mongo jstests/core/arrayfind6.js
+echo running arrayfind7.js
+/home/jay/mongo/mongo jstests/core/arrayfind7.js
+echo running arrayfind8.js
+/home/jay/mongo/mongo jstests/core/arrayfind8.js
+echo running arrayfind9.js
+/home/jay/mongo/mongo jstests/core/arrayfind9.js
+echo running arrayfinda.js
+/home/jay/mongo/mongo jstests/core/arrayfinda.js
+echo running arrayfindb.js
+/home/jay/mongo/mongo jstests/core/arrayfindb.js
+echo running array_match1.js
+/home/jay/mongo/mongo jstests/core/array_match1.js
+echo running array_match2.js
+/home/jay/mongo/mongo jstests/core/array_match2.js
+echo running array_match3.js
+/home/jay/mongo/mongo jstests/core/array_match3.js
+echo running array_match4.js
+/home/jay/mongo/mongo jstests/core/array_match4.js
+echo running auth1.js
+/home/jay/mongo/mongo jstests/core/auth1.js
+echo running auth2.js
+/home/jay/mongo/mongo jstests/core/auth2.js
+echo running auth_copydb.js
+/home/jay/mongo/mongo jstests/core/auth_copydb.js
+echo running autoid.js
+/home/jay/mongo/mongo jstests/core/autoid.js
+echo running bad_index_plugin.js
+/home/jay/mongo/mongo jstests/core/bad_index_plugin.js
+echo running basic1.js
+/home/jay/mongo/mongo jstests/core/basic1.js
+echo running basic2.js
+/home/jay/mongo/mongo jstests/core/basic2.js
+echo running basic3.js
+/home/jay/mongo/mongo jstests/core/basic3.js
+echo running basic4.js
+/home/jay/mongo/mongo jstests/core/basic4.js
+echo running basic5.js
+/home/jay/mongo/mongo jstests/core/basic5.js
+echo running basic6.js
+/home/jay/mongo/mongo jstests/core/basic6.js
+echo running basic7.js
+/home/jay/mongo/mongo jstests/core/basic7.js
+echo running basic8.js
+/home/jay/mongo/mongo jstests/core/basic8.js
+echo running basic9.js
+/home/jay/mongo/mongo jstests/core/basic9.js
+echo running basica.js
+/home/jay/mongo/mongo jstests/core/basica.js
+echo running basicb.js
+/home/jay/mongo/mongo jstests/core/basicb.js
+#echo running batch_size.js   ## commit failure on /home/jay/mongo/mongo-rocks side with IOError status.
+#/home/jay/mongo/mongo jstests/core/batch_size.js
+echo running batch_write_command_delete.js # quite long running test
+/home/jay/mongo/mongo jstests/core/batch_write_command_delete.js
+echo running batch_write_command_insert.js # NULL coldata pointer in parquet::RowAssembler::jsonRecord
+/home/jay/mongo/mongo jstests/core/batch_write_command_insert.js
+echo running batch_write_command_update.js
+/home/jay/mongo/mongo jstests/core/batch_write_command_update.js
+echo running batch_write_command_wc.js
+/home/jay/mongo/mongo jstests/core/batch_write_command_wc.js
+echo running bench_test1.js
+/home/jay/mongo/mongo jstests/core/bench_test1.js
+echo running bench_test2.js
+/home/jay/mongo/mongo jstests/core/bench_test2.js
+#echo running bench_test3.js     # SIGSEGV at data-model.h:307 in assert
+#/home/jay/mongo/mongo jstests/core/bench_test3.js
+#echo running big_object1.js     # mongo-rocks rocks_recovery_unit gets kIOError
+#/home/jay/mongo/mongo jstests/core/big_object1.js
+echo running bindata_indexonly.js     # AlbaFileReaderLocal constructor gets lfd = -1
+/home/jay/mongo/mongo jstests/core/bindata_indexonly.js    
+echo running binData.js
+/home/jay/mongo/mongo jstests/core/binData.js
+echo running bittest.js
+/home/jay/mongo/mongo jstests/core/bittest.js
+echo running bulk_api_ordered.js
+/home/jay/mongo/mongo jstests/core/bulk_api_ordered.js
+echo running bulk_api_unordered.js
+/home/jay/mongo/mongo jstests/core/bulk_api_unordered.js
+echo running bulk_insert_capped.js
+/home/jay/mongo/mongo jstests/core/bulk_insert_capped.js
+#echo running bulk_insert.js        # mongo-rocks rocks_recovery_unit commit gets kIOError
+#/home/jay/mongo/mongo jstests/core/bulk_insert.js
+echo running bulk_legacy_enforce_gle.js    
+/home/jay/mongo/mongo jstests/core/bulk_legacy_enforce_gle.js
+echo running bypass_doc_validation.js
+/home/jay/mongo/mongo jstests/core/bypass_doc_validation.js
+echo running capped1.js
+/home/jay/mongo/mongo jstests/core/capped1.js
+echo running capped5.js
+/home/jay/mongo/mongo jstests/core/capped5.js      
+echo running capped6.js            
+/home/jay/mongo/mongo jstests/core/capped6.js
+echo running capped9.js
+/home/jay/mongo/mongo jstests/core/capped9.js
+echo running cappeda.js
+/home/jay/mongo/mongo jstests/core/cappeda.js
+echo running capped_convertToCapped1.js
+/home/jay/mongo/mongo jstests/core/capped_convertToCapped1.js
+echo running capped_empty.js
+/home/jay/mongo/mongo jstests/core/capped_empty.js
+echo running capped.js
+/home/jay/mongo/mongo jstests/core/capped.js
+echo running capped_max1.js         
+/home/jay/mongo/mongo jstests/core/capped_max1.js
+echo running capped_update.js
+/home/jay/mongo/mongo jstests/core/capped_update.js
+echo running check_shard_index.js
+/home/jay/mongo/mongo jstests/core/check_shard_index.js
+echo running cleanup_orphaned.js
+/home/jay/mongo/mongo jstests/core/cleanup_orphaned.js
+echo running clone_as_capped_nonexistant.js
+/home/jay/mongo/mongo jstests/core/clone_as_capped_nonexistant.js
+echo running collection_info_cache_race.js
+/home/jay/mongo/mongo jstests/core/collection_info_cache_race.js
+echo running collection_truncate.js
+/home/jay/mongo/mongo jstests/core/collection_truncate.js
+echo running collmod_bad_spec.js
+/home/jay/mongo/mongo jstests/core/collmod_bad_spec.js
+echo running collmod.js
+/home/jay/mongo/mongo jstests/core/collmod.js
+echo running compact_keeps_indexes.js
+/home/jay/mongo/mongo jstests/core/compact_keeps_indexes.js
+echo running compare_timestamps.js
+/home/jay/mongo/mongo jstests/core/compare_timestamps.js
+echo running connection_status.js
+/home/jay/mongo/mongo jstests/core/connection_status.js
+echo running connection_string_validation.js
+/home/jay/mongo/mongo jstests/core/connection_string_validation.js
+#echo running constructors.js        # db.eval depricated. AlbaFileWriterLocal open call returned -1.
+#/home/jay/mongo/mongo jstests/core/constructors.js
+echo running convert_to_capped_nonexistant.js
+/home/jay/mongo/mongo jstests/core/convert_to_capped_nonexistant.js
+echo running copydb.js
+/home/jay/mongo/mongo jstests/core/copydb.js
+echo running count10.js
+/home/jay/mongo/mongo jstests/core/count10.js
+echo running count11.js
+/home/jay/mongo/mongo jstests/core/count11.js
+echo running count2.js      
+/home/jay/mongo/mongo jstests/core/count2.js
+echo running count3.js      
+/home/jay/mongo/mongo jstests/core/count3.js
+echo running count4.js
+/home/jay/mongo/mongo jstests/core/count4.js
+echo running count5.js
+/home/jay/mongo/mongo jstests/core/count5.js
+echo running count6.js
+/home/jay/mongo/mongo jstests/core/count6.js
+echo running count7.js
+/home/jay/mongo/mongo jstests/core/count7.js
+echo running count9.js
+/home/jay/mongo/mongo jstests/core/count9.js
+echo running counta.js
+/home/jay/mongo/mongo jstests/core/counta.js
+echo running countb.js
+/home/jay/mongo/mongo jstests/core/countb.js
+echo running countc.js
+/home/jay/mongo/mongo jstests/core/countc.js
+echo running count_hint.js
+/home/jay/mongo/mongo jstests/core/count_hint.js
+echo running count.js
+/home/jay/mongo/mongo jstests/core/count.js
+echo running count_plan_summary.js
+/home/jay/mongo/mongo jstests/core/count_plan_summary.js
+echo running coveredIndex1.js
+/home/jay/mongo/mongo jstests/core/coveredIndex1.js
+echo running coveredIndex2.js
+/home/jay/mongo/mongo jstests/core/coveredIndex2.js
+echo running coveredIndex3.js
+/home/jay/mongo/mongo jstests/core/coveredIndex3.js
+echo running coveredIndex4.js       
+/home/jay/mongo/mongo jstests/core/coveredIndex4.js
+echo running covered_index_compound_1.js
+/home/jay/mongo/mongo jstests/core/covered_index_compound_1.js
+echo running covered_index_negative_1.js
+/home/jay/mongo/mongo jstests/core/covered_index_negative_1.js
+echo running covered_index_simple_1.js
+/home/jay/mongo/mongo jstests/core/covered_index_simple_1.js
+echo running covered_index_simple_2.js
+/home/jay/mongo/mongo jstests/core/covered_index_simple_2.js
+echo running covered_index_simple_3.js
+/home/jay/mongo/mongo jstests/core/covered_index_simple_3.js
+echo running covered_index_simple_id.js
+/home/jay/mongo/mongo jstests/core/covered_index_simple_id.js
+echo running covered_index_sort_1.js
+/home/jay/mongo/mongo jstests/core/covered_index_sort_1.js
+echo running covered_index_sort_2.js
+/home/jay/mongo/mongo jstests/core/covered_index_sort_2.js
+echo running covered_index_sort_3.js
+/home/jay/mongo/mongo jstests/core/covered_index_sort_3.js
+echo running create_collection_fail_cleanup.js
+/home/jay/mongo/mongo jstests/core/create_collection_fail_cleanup.js
+echo running create_indexes.js
+/home/jay/mongo/mongo jstests/core/create_indexes.js
+echo running crud_api.js
+/home/jay/mongo/mongo jstests/core/crud_api.js
+echo running currentop.js
+/home/jay/mongo/mongo jstests/core/currentop.js
+echo running currentop_predicate.js
+/home/jay/mongo/mongo jstests/core/currentop_predicate.js
+#echo running cursor1.js       # AlbaFileWriterLocal open call returned -1.
+#/home/jay/mongo/mongo jstests/core/cursor1.js
+echo running cursor2.js
+/home/jay/mongo/mongo jstests/core/cursor2.js
+echo running cursor3.js
+/home/jay/mongo/mongo jstests/core/cursor3.js
+echo running cursor4.js
+/home/jay/mongo/mongo jstests/core/cursor4.js
+echo running cursor5.js
+/home/jay/mongo/mongo jstests/core/cursor5.js
+echo running cursor6.js
+/home/jay/mongo/mongo jstests/core/cursor6.js
+echo running cursor7.js
+/home/jay/mongo/mongo jstests/core/cursor7.js
+echo running cursora.js    
+/home/jay/mongo/mongo jstests/core/cursora.js
+echo running cursorb.js    
+/home/jay/mongo/mongo jstests/core/cursorb.js
+echo running datasize2.js
+/home/jay/mongo/mongo jstests/core/datasize2.js
+echo running date1.js
+/home/jay/mongo/mongo jstests/core/date1.js
+echo running date2.js
+/home/jay/mongo/mongo jstests/core/date2.js
+echo running date3.js
+/home/jay/mongo/mongo jstests/core/date3.js
+echo running dbadmin.js
+/home/jay/mongo/mongo jstests/core/dbadmin.js
+echo running dbcase2.js
+/home/jay/mongo/mongo jstests/core/dbcase2.js
+echo running dbcase.js
+/home/jay/mongo/mongo jstests/core/dbcase.js
+echo running dbhash2.js
+/home/jay/mongo/mongo jstests/core/dbhash2.js
+echo running dbhash.js
+/home/jay/mongo/mongo jstests/core/dbhash.js
+echo running db.js
+/home/jay/mongo/mongo jstests/core/db.js
+echo running dbref1.js
+/home/jay/mongo/mongo jstests/core/dbref1.js
+echo running dbref2.js
+/home/jay/mongo/mongo jstests/core/dbref2.js
+echo running dbref3.js
+/home/jay/mongo/mongo jstests/core/dbref3.js
+echo running delx.js
+/home/jay/mongo/mongo jstests/core/delx.js
+echo running depth_limit.js
+/home/jay/mongo/mongo jstests/core/depth_limit.js
+echo running disable-index3.nojs
+/home/jay/mongo/mongo jstests/core/disable-index3.nojs
+echo running distinct1.js
+/home/jay/mongo/mongo jstests/core/distinct1.js
+echo running distinct2.js
+/home/jay/mongo/mongo jstests/core/distinct2.js
+echo running distinct3.js   
+/home/jay/mongo/mongo jstests/core/distinct3.js
+echo running distinct4.js   
+/home/jay/mongo/mongo jstests/core/distinct4.js
+echo running distinct_array1.js
+/home/jay/mongo/mongo jstests/core/distinct_array1.js
+echo running distinct_index1.js
+/home/jay/mongo/mongo jstests/core/distinct_index1.js
+echo running distinct_index2.js
+/home/jay/mongo/mongo jstests/core/distinct_index2.js
+echo running distinct_speed1.js  
+/home/jay/mongo/mongo jstests/core/distinct_speed1.js
+echo running doc_validation_invalid_validators.js 
+/home/jay/mongo/mongo jstests/core/doc_validation_invalid_validators.js
+echo running doc_validation.js
+/home/jay/mongo/mongo jstests/core/doc_validation.js
+echo running doc_validation_options.js
+/home/jay/mongo/mongo jstests/core/doc_validation_options.js
+echo running drop2.js
+/home/jay/mongo/mongo jstests/core/drop2.js
+echo running drop3.js
+/home/jay/mongo/mongo jstests/core/drop3.js
+echo running dropdb.js
+/home/jay/mongo/mongo jstests/core/dropdb.js
+#echo running dropdb_race.js
+#/home/jay/mongo/mongo jstests/core/dropdb_race.js
+echo running drop_index.js
+/home/jay/mongo/mongo jstests/core/drop_index.js
+echo running drop.js
+/home/jay/mongo/mongo jstests/core/drop.js
+#echo running elemMatchProjection.js   # Schema mismatch error
+#/home/jay/mongo/mongo jstests/core/elemMatchProjection.js
+echo running ensure_sorted.js
+/home/jay/mongo/mongo jstests/core/ensure_sorted.js
+echo running error2.js
+/home/jay/mongo/mongo jstests/core/error2.js
+echo running error5.js
+/home/jay/mongo/mongo jstests/core/error5.js
+echo running eval0.js
+/home/jay/mongo/mongo jstests/core/eval0.js
+echo running eval1.js
+/home/jay/mongo/mongo jstests/core/eval1.js
+echo running eval2.js
+/home/jay/mongo/mongo jstests/core/eval2.js
+echo running eval3.js
+/home/jay/mongo/mongo jstests/core/eval3.js
+echo running eval4.js
+/home/jay/mongo/mongo jstests/core/eval4.js
+echo running eval5.js
+/home/jay/mongo/mongo jstests/core/eval5.js
+echo running eval6.js
+/home/jay/mongo/mongo jstests/core/eval6.js
+echo running eval7.js
+/home/jay/mongo/mongo jstests/core/eval7.js
+echo running eval8.js
+/home/jay/mongo/mongo jstests/core/eval8.js
+echo running eval9.js
+/home/jay/mongo/mongo jstests/core/eval9.js
+echo running evala.js
+/home/jay/mongo/mongo jstests/core/evala.js
+echo running evalb.js
+/home/jay/mongo/mongo jstests/core/evalb.js
+echo running evalc.js
+/home/jay/mongo/mongo jstests/core/evalc.js
+echo running evald.js
+/home/jay/mongo/mongo jstests/core/evald.js
+echo running evale.js
+/home/jay/mongo/mongo jstests/core/evale.js
+echo running evalg.js
+/home/jay/mongo/mongo jstests/core/evalg.js
+echo running eval_mr.js
+/home/jay/mongo/mongo jstests/core/eval_mr.js
+echo running eval_nolock.js
+/home/jay/mongo/mongo jstests/core/eval_nolock.js
+echo running exists2.js
+/home/jay/mongo/mongo jstests/core/exists2.js
+echo running exists3.js
+/home/jay/mongo/mongo jstests/core/exists3.js
+echo running exists4.js
+/home/jay/mongo/mongo jstests/core/exists4.js
+echo running exists5.js
+/home/jay/mongo/mongo jstests/core/exists5.js
+echo running exists6.js
+/home/jay/mongo/mongo jstests/core/exists6.js
+echo running exists7.js
+/home/jay/mongo/mongo jstests/core/exists7.js
+echo running exists8.js
+/home/jay/mongo/mongo jstests/core/exists8.js
+echo running exists9.js
+/home/jay/mongo/mongo jstests/core/exists9.js
+echo running existsa.js
+/home/jay/mongo/mongo jstests/core/existsa.js
+echo running existsb.js
+/home/jay/mongo/mongo jstests/core/existsb.js
+echo running exists.js
+/home/jay/mongo/mongo jstests/core/exists.js
+echo running explain1.js
+/home/jay/mongo/mongo jstests/core/explain1.js
+echo running explain2.js
+/home/jay/mongo/mongo jstests/core/explain2.js
+echo running explain3.js    
+/home/jay/mongo/mongo jstests/core/explain3.js
+echo running explain4.js    
+/home/jay/mongo/mongo jstests/core/explain4.js
+echo running explain5.js
+/home/jay/mongo/mongo jstests/core/explain5.js
+echo running explain6.js
+/home/jay/mongo/mongo jstests/core/explain6.js
+echo running explain_batch_size.js
+/home/jay/mongo/mongo jstests/core/explain_batch_size.js
+echo running explain_count.js
+/home/jay/mongo/mongo jstests/core/explain_count.js
+echo running explain_delete.js
+/home/jay/mongo/mongo jstests/core/explain_delete.js
+echo running explain_distinct.js
+/home/jay/mongo/mongo jstests/core/explain_distinct.js
+echo running explain_execution_error.js     # AlbaFileWriterLocal open call returned -1.
+/home/jay/mongo/mongo jstests/core/explain_execution_error.js
+echo running explain_find_and_modify.js
+/home/jay/mongo/mongo jstests/core/explain_find_and_modify.js
+echo running explain_find.js
+/home/jay/mongo/mongo jstests/core/explain_find.js
+echo running explain_large_bounds.js
+/home/jay/mongo/mongo jstests/core/explain_large_bounds.js
+echo running explain_missing_collection.js
+/home/jay/mongo/mongo jstests/core/explain_missing_collection.js
+echo running explain_missing_database.js
+/home/jay/mongo/mongo jstests/core/explain_missing_database.js
+echo running explain_multi_plan.js     
+/home/jay/mongo/mongo jstests/core/explain_multi_plan.js
+echo running explain_shell_helpers.js
+/home/jay/mongo/mongo jstests/core/explain_shell_helpers.js
+echo running explain_upsert.js
+/home/jay/mongo/mongo jstests/core/explain_upsert.js
+echo running filemd5.js
+/home/jay/mongo/mongo jstests/core/filemd5.js
+echo running find1.js
+/home/jay/mongo/mongo jstests/core/find1.js
+echo running find2.js
+/home/jay/mongo/mongo jstests/core/find2.js
+echo running find3.js
+/home/jay/mongo/mongo jstests/core/find3.js
+echo running find4.js
+/home/jay/mongo/mongo jstests/core/find4.js
+echo running find5.js
+/home/jay/mongo/mongo jstests/core/find5.js
+echo running find6.js
+/home/jay/mongo/mongo jstests/core/find6.js
+echo running find7.js
+/home/jay/mongo/mongo jstests/core/find7.js
+echo running find8.js
+/home/jay/mongo/mongo jstests/core/find8.js
+#echo running find9.js      # AlbaFileWriterLocal constructor  open fails with return value -1
+#/home/jay/mongo/mongo jstests/core/find9.js
+echo running finda.js
+/home/jay/mongo/mongo jstests/core/finda.js
+#echo running find_and_modify2.js    # Scheme mismatch
+#/home/jay/mongo/mongo jstests/core/find_and_modify2.js
+echo running find_and_modify3.js
+/home/jay/mongo/mongo jstests/core/find_and_modify3.js
+echo running find_and_modify4.js
+/home/jay/mongo/mongo jstests/core/find_and_modify4.js
+echo running find_and_modify_concurrent_update.js
+/home/jay/mongo/mongo jstests/core/find_and_modify_concurrent_update.js
+echo running find_and_modify_empty_coll.js
+/home/jay/mongo/mongo jstests/core/find_and_modify_empty_coll.js
+echo running find_and_modify_empty_update.js
+/home/jay/mongo/mongo jstests/core/find_and_modify_empty_update.js
+echo running find_and_modify.js
+/home/jay/mongo/mongo jstests/core/find_and_modify.js
+echo running find_and_modify_server6226.js
+/home/jay/mongo/mongo jstests/core/find_and_modify_server6226.js
+echo running find_and_modify_server6254.js
+/home/jay/mongo/mongo jstests/core/find_and_modify_server6254.js
+echo running find_and_modify_server6582.js
+/home/jay/mongo/mongo jstests/core/find_and_modify_server6582.js
+echo running find_and_modify_server6588.js
+/home/jay/mongo/mongo jstests/core/find_and_modify_server6588.js
+echo running find_and_modify_server6659.js
+/home/jay/mongo/mongo jstests/core/find_and_modify_server6659.js
+echo running find_and_modify_server6865.js
+/home/jay/mongo/mongo jstests/core/find_and_modify_server6865.js
+echo running find_and_modify_server6909.js
+/home/jay/mongo/mongo jstests/core/find_and_modify_server6909.js
+echo running find_and_modify_server6993.js
+/home/jay/mongo/mongo jstests/core/find_and_modify_server6993.js
+echo running find_and_modify_server7660.js
+/home/jay/mongo/mongo jstests/core/find_and_modify_server7660.js
+echo running find_and_modify_where.js
+/home/jay/mongo/mongo jstests/core/find_and_modify_where.js
+echo running find_dedup.js
+/home/jay/mongo/mongo jstests/core/find_dedup.js
+#echo running find_getmore_bsonsize.js  # mongo-rocks rocks_recovery_unit hits kIOError in commit
+#/home/jay/mongo/mongo jstests/core/find_getmore_bsonsize.js
+echo running find_getmore_cmd.js       
+/home/jay/mongo/mongo jstests/core/find_getmore_cmd.js
+echo running find_size.js
+/home/jay/mongo/mongo jstests/core/find_size.js
+echo running fm1.js
+/home/jay/mongo/mongo jstests/core/fm1.js
+echo running fm2.js
+/home/jay/mongo/mongo jstests/core/fm2.js
+echo running fm3.js
+/home/jay/mongo/mongo jstests/core/fm3.js
+echo running fm4.js
+/home/jay/mongo/mongo jstests/core/fm4.js
+echo running fsync.js
+/home/jay/mongo/mongo jstests/core/fsync.js
+echo running fts1.js
+/home/jay/mongo/mongo jstests/core/fts1.js
+echo running fts2.js
+/home/jay/mongo/mongo jstests/core/fts2.js
+echo running fts3.js
+/home/jay/mongo/mongo jstests/core/fts3.js
+echo running fts4.js
+/home/jay/mongo/mongo jstests/core/fts4.js
+echo running fts5.js
+/home/jay/mongo/mongo jstests/core/fts5.js
+echo running fts6.js
+/home/jay/mongo/mongo jstests/core/fts6.js
+echo running fts_blog.js
+/home/jay/mongo/mongo jstests/core/fts_blog.js
+echo running fts_blogwild.js
+/home/jay/mongo/mongo jstests/core/fts_blogwild.js
+echo running fts_casesensitive.js
+/home/jay/mongo/mongo jstests/core/fts_casesensitive.js
+echo running fts_diacritic_and_caseinsensitive.js
+/home/jay/mongo/mongo jstests/core/fts_diacritic_and_caseinsensitive.js
+echo running fts_diacritic_and_casesensitive.js
+/home/jay/mongo/mongo jstests/core/fts_diacritic_and_casesensitive.js
+echo running fts_diacriticsensitive.js
+/home/jay/mongo/mongo jstests/core/fts_diacriticsensitive.js
+echo running fts_enabled.js
+/home/jay/mongo/mongo jstests/core/fts_enabled.js
+echo running fts_explain.js
+/home/jay/mongo/mongo jstests/core/fts_explain.js
+echo running fts_index2.js
+/home/jay/mongo/mongo jstests/core/fts_index2.js
+echo running fts_index3.js
+/home/jay/mongo/mongo jstests/core/fts_index3.js
+echo running fts_index.js      
+/home/jay/mongo/mongo jstests/core/fts_index.js
+echo running fts_index_version1.js
+/home/jay/mongo/mongo jstests/core/fts_index_version1.js
+echo running fts_index_version2.js
+/home/jay/mongo/mongo jstests/core/fts_index_version2.js
+echo running fts_mix.js
+/home/jay/mongo/mongo jstests/core/fts_mix.js
+echo running fts_partition1.js
+/home/jay/mongo/mongo jstests/core/fts_partition1.js
+echo running fts_partition_no_multikey.js
+/home/jay/mongo/mongo jstests/core/fts_partition_no_multikey.js
+echo running fts_phrase.js
+/home/jay/mongo/mongo jstests/core/fts_phrase.js
+echo running fts_projection.js
+/home/jay/mongo/mongo jstests/core/fts_projection.js
+echo running fts_proj.js
+/home/jay/mongo/mongo jstests/core/fts_proj.js
+echo running fts_querylang.js
+/home/jay/mongo/mongo jstests/core/fts_querylang.js
+echo running fts_score_sort.js
+/home/jay/mongo/mongo jstests/core/fts_score_sort.js
+echo running fts_spanish.js
+/home/jay/mongo/mongo jstests/core/fts_spanish.js
+echo running geo10.js
+/home/jay/mongo/mongo jstests/core/geo10.js
+echo running geo1.js
+/home/jay/mongo/mongo jstests/core/geo1.js
+echo running geo_2d_explain.js
+/home/jay/mongo/mongo jstests/core/geo_2d_explain.js
+echo running geo_2d_with_geojson_point.js
+/home/jay/mongo/mongo jstests/core/geo_2d_with_geojson_point.js
+echo running geo2.js      
+/home/jay/mongo/mongo jstests/core/geo2.js
+echo running geo3.js      
+/home/jay/mongo/mongo jstests/core/geo3.js
+echo running geo5.js
+/home/jay/mongo/mongo jstests/core/geo5.js
+echo running geo6.js
+/home/jay/mongo/mongo jstests/core/geo6.js
+echo running geo7.js
+/home/jay/mongo/mongo jstests/core/geo7.js
+echo running geo9.js
+/home/jay/mongo/mongo jstests/core/geo9.js
+echo running geoa.js
+/home/jay/mongo/mongo jstests/core/geoa.js
+echo running geo_allowedcomparisons.js
+/home/jay/mongo/mongo jstests/core/geo_allowedcomparisons.js
+echo running geo_array0.js
+/home/jay/mongo/mongo jstests/core/geo_array0.js
+echo running geo_array1.js    # AlbaFileWriterLocal constructor  open fails with return value -1
+/home/jay/mongo/mongo jstests/core/geo_array1.js
+echo running geo_array2.js
+/home/jay/mongo/mongo jstests/core/geo_array2.js
+echo running geo_big_polygon2.js   
+/home/jay/mongo/mongo jstests/core/geo_big_polygon2.js
+echo running geo_big_polygon3.js   
+/home/jay/mongo/mongo jstests/core/geo_big_polygon3.js
+echo running geo_big_polygon.js
+/home/jay/mongo/mongo jstests/core/geo_big_polygon.js
+echo running geob.js
+/home/jay/mongo/mongo jstests/core/geob.js
+echo running geo_borders.js
+/home/jay/mongo/mongo jstests/core/geo_borders.js
+echo running geo_box1.js
+/home/jay/mongo/mongo jstests/core/geo_box1.js
+echo running geo_box1_noindex.js
+/home/jay/mongo/mongo jstests/core/geo_box1_noindex.js
+echo running geo_box2.js
+/home/jay/mongo/mongo jstests/core/geo_box2.js
+echo running geo_box3.js
+/home/jay/mongo/mongo jstests/core/geo_box3.js
+echo running geo_center_sphere1.js    
+/home/jay/mongo/mongo jstests/core/geo_center_sphere1.js
+#echo running geo_center_sphere2.js    # /home/jay/mongo/mongo-rocks rocks_recovery_unit gets kIOError during commit
+#/home/jay/mongo/mongo jstests/core/geo_center_sphere2.js
+echo running geo_circle1.js
+/home/jay/mongo/mongo jstests/core/geo_circle1.js
+echo running geo_circle1_noindex.js
+/home/jay/mongo/mongo jstests/core/geo_circle1_noindex.js
+echo running geo_circle2a.js
+/home/jay/mongo/mongo jstests/core/geo_circle2a.js
+echo running geo_circle2.js
+/home/jay/mongo/mongo jstests/core/geo_circle2.js
+echo running geo_circle3.js
+/home/jay/mongo/mongo jstests/core/geo_circle3.js
+echo running geo_circle4.js
+/home/jay/mongo/mongo jstests/core/geo_circle4.js
+echo running geo_circle5.js
+/home/jay/mongo/mongo jstests/core/geo_circle5.js
+echo running geoc.js
+/home/jay/mongo/mongo jstests/core/geoc.js
+echo running geo_distinct.js
+/home/jay/mongo/mongo jstests/core/geo_distinct.js
+echo running geod.js
+/home/jay/mongo/mongo jstests/core/geod.js
+echo running geoe.js
+/home/jay/mongo/mongo jstests/core/geoe.js
+echo running geo_exactfetch.js
+/home/jay/mongo/mongo jstests/core/geo_exactfetch.js
+echo running geo_fiddly_box2.js
+/home/jay/mongo/mongo jstests/core/geo_fiddly_box2.js
+echo running geo_fiddly_box.js
+/home/jay/mongo/mongo jstests/core/geo_fiddly_box.js
+echo running geof.js
+/home/jay/mongo/mongo jstests/core/geof.js
+echo running geo_group.js      # SIGSEGV in avero_schema_record_field_append
+/home/jay/mongo/mongo jstests/core/geo_group.js
+echo running geo_haystack1.js   
+/home/jay/mongo/mongo jstests/core/geo_haystack1.js
+echo running geo_haystack2.js
+/home/jay/mongo/mongo jstests/core/geo_haystack2.js
+echo running geo_haystack3.js
+/home/jay/mongo/mongo jstests/core/geo_haystack3.js
+echo running geo_invalid_2d_params.js
+/home/jay/mongo/mongo jstests/core/geo_invalid_2d_params.js
+echo running geo_invalid_polygon.js
+/home/jay/mongo/mongo jstests/core/geo_invalid_polygon.js
+echo running geo_mapreduce2.js
+/home/jay/mongo/mongo jstests/core/geo_mapreduce2.js
+echo running geo_mapreduce.js
+/home/jay/mongo/mongo jstests/core/geo_mapreduce.js
+echo running geo_max.js
+/home/jay/mongo/mongo jstests/core/geo_max.js
+echo running geo_mindistance_boundaries.js
+/home/jay/mongo/mongo jstests/core/geo_mindistance_boundaries.js
+echo running geo_mindistance.js
+/home/jay/mongo/mongo jstests/core/geo_mindistance.js
+echo running geo_multikey0.js
+/home/jay/mongo/mongo jstests/core/geo_multikey0.js
+echo running geo_multikey1.js
+/home/jay/mongo/mongo jstests/core/geo_multikey1.js
+echo running geo_multinest0.js
+/home/jay/mongo/mongo jstests/core/geo_multinest0.js
+echo running geo_multinest1.js
+/home/jay/mongo/mongo jstests/core/geo_multinest1.js
+echo running geonear_cmd_input_validation.js
+/home/jay/mongo/mongo jstests/core/geonear_cmd_input_validation.js
+echo running geo_near_random1.js
+/home/jay/mongo/mongo jstests/core/geo_near_random1.js
+echo running geo_near_random2.js
+/home/jay/mongo/mongo jstests/core/geo_near_random2.js
+echo running geo_nearwithin.js
+/home/jay/mongo/mongo jstests/core/geo_nearwithin.js
+echo running geo_oob_sphere.js
+/home/jay/mongo/mongo jstests/core/geo_oob_sphere.js
+echo running geo_operator_crs.js
+/home/jay/mongo/mongo jstests/core/geo_operator_crs.js
+echo running geo_or.js
+/home/jay/mongo/mongo jstests/core/geo_or.js
+echo running geo_poly_edge.js
+/home/jay/mongo/mongo jstests/core/geo_poly_edge.js
+echo running geo_polygon1.js
+/home/jay/mongo/mongo jstests/core/geo_polygon1.js
+echo running geo_polygon1_noindex.js
+/home/jay/mongo/mongo jstests/core/geo_polygon1_noindex.js
+echo running geo_polygon2.js
+/home/jay/mongo/mongo jstests/core/geo_polygon2.js
+#echo running geo_polygon3.js    ## AlbaFileWriterLocal constructor  open fails with return value -1
+#/home/jay/mongo/mongo jstests/core/geo_polygon3.js
+echo running geo_poly_line.js
+/home/jay/mongo/mongo jstests/core/geo_poly_line.js
+echo running geo_queryoptimizer.js
+/home/jay/mongo/mongo jstests/core/geo_queryoptimizer.js
+echo running geo_regex0.js
+/home/jay/mongo/mongo jstests/core/geo_regex0.js
+echo running geo_s2cursorlimitskip.js     
+/home/jay/mongo/mongo jstests/core/geo_s2cursorlimitskip.js
+echo running geo_s2dedupnear.js
+/home/jay/mongo/mongo jstests/core/geo_s2dedupnear.js
+echo running geo_s2descindex.js
+/home/jay/mongo/mongo jstests/core/geo_s2descindex.js
+echo running geo_s2disjoint_holes.js    
+/home/jay/mongo/mongo jstests/core/geo_s2disjoint_holes.js
+echo running geo_s2dupe_points.js
+/home/jay/mongo/mongo jstests/core/geo_s2dupe_points.js
+echo running geo_s2edgecases.js
+/home/jay/mongo/mongo jstests/core/geo_s2edgecases.js
+echo running geo_s2exact.js
+/home/jay/mongo/mongo jstests/core/geo_s2exact.js
+echo running geo_s2explain.js
+/home/jay/mongo/mongo jstests/core/geo_s2explain.js
+echo running geo_s2holesameasshell.js
+/home/jay/mongo/mongo jstests/core/geo_s2holesameasshell.js
+echo running geo_s2index.js
+/home/jay/mongo/mongo jstests/core/geo_s2index.js
+echo running geo_s2indexoldformat.js
+/home/jay/mongo/mongo jstests/core/geo_s2indexoldformat.js
+#echo running geo_s2indexversion1.js    # SIGSEGV is tracing code from AveroSchemaToParquetSchemaConverter
+#/home/jay/mongo/mongo jstests/core/geo_s2indexversion1.js
+echo running geo_s2intersection.js
+/home/jay/mongo/mongo jstests/core/geo_s2intersection.js
+echo running geo_s2largewithin.js
+/home/jay/mongo/mongo jstests/core/geo_s2largewithin.js
+echo running geo_s2meridian.js         
+/home/jay/mongo/mongo jstests/core/geo_s2meridian.js
+echo running geo_s2multi.js
+/home/jay/mongo/mongo jstests/core/geo_s2multi.js
+echo running geo_s2nearComplex.js
+/home/jay/mongo/mongo jstests/core/geo_s2nearComplex.js
+echo running geo_s2nearcorrect.js
+/home/jay/mongo/mongo jstests/core/geo_s2nearcorrect.js
+echo running geo_s2near_equator_opposite.js
+/home/jay/mongo/mongo jstests/core/geo_s2near_equator_opposite.js
+echo running geo_s2near.js
+/home/jay/mongo/mongo jstests/core/geo_s2near.js
+echo running geo_s2nearwithin.js
+/home/jay/mongo/mongo jstests/core/geo_s2nearwithin.js
+echo running geo_s2nongeoarray.js
+/home/jay/mongo/mongo jstests/core/geo_s2nongeoarray.js
+echo running geo_s2nonstring.js
+/home/jay/mongo/mongo jstests/core/geo_s2nonstring.js
+echo running geo_s2nopoints.js
+/home/jay/mongo/mongo jstests/core/geo_s2nopoints.js
+echo running geo_s2oddshapes.js
+/home/jay/mongo/mongo jstests/core/geo_s2oddshapes.js
+echo running geo_s2ordering.js    
+/home/jay/mongo/mongo jstests/core/geo_s2ordering.js
+echo running geo_s2overlappingpolys.js
+/home/jay/mongo/mongo jstests/core/geo_s2overlappingpolys.js
+echo running geo_s2polywithholes.js
+/home/jay/mongo/mongo jstests/core/geo_s2polywithholes.js
+echo running geo_s2selfintersectingpoly.js
+/home/jay/mongo/mongo jstests/core/geo_s2selfintersectingpoly.js
+#echo running geo_s2sparse.js       # In AlbaWriterLocal constructor open call returns with value -1
+#/home/jay/mongo/mongo jstests/core/geo_s2sparse.js
+echo running geo_s2twofields.js     
+/home/jay/mongo/mongo jstests/core/geo_s2twofields.js
+echo running geo_s2validindex.js
+/home/jay/mongo/mongo jstests/core/geo_s2validindex.js
+echo running geo_s2within.js
+/home/jay/mongo/mongo jstests/core/geo_s2within.js
+echo running geo_small_large.js
+/home/jay/mongo/mongo jstests/core/geo_small_large.js
+echo running geo_sort1.js
+/home/jay/mongo/mongo jstests/core/geo_sort1.js
+echo running geo_uniqueDocs2.js   
+/home/jay/mongo/mongo jstests/core/geo_uniqueDocs2.js
+echo running geo_uniqueDocs.js
+/home/jay/mongo/mongo jstests/core/geo_uniqueDocs.js
+echo running geo_update1.js       
+/home/jay/mongo/mongo jstests/core/geo_update1.js
+echo running geo_update2.js         # In AlbaWriterLocal constructor open call returns with value -1
+/home/jay/mongo/mongo jstests/core/geo_update2.js
+echo running geo_update_btree2.js
+/home/jay/mongo/mongo jstests/core/geo_update_btree2.js
+echo running geo_update_btree.js
+/home/jay/mongo/mongo jstests/core/geo_update_btree.js
+echo running geo_update_dedup.js
+/home/jay/mongo/mongo jstests/core/geo_update_dedup.js
+echo running geo_update.js
+/home/jay/mongo/mongo jstests/core/geo_update.js
+echo running geo_validate.js
+/home/jay/mongo/mongo jstests/core/geo_validate.js
+echo running geo_withinquery.js    
+/home/jay/mongo/mongo jstests/core/geo_withinquery.js
+echo running getlog1.js
+/home/jay/mongo/mongo jstests/core/getlog1.js
+echo running getlog2.js
+/home/jay/mongo/mongo jstests/core/getlog2.js
+echo running getmore_cmd_maxtimems.js
+/home/jay/mongo/mongo jstests/core/getmore_cmd_maxtimems.js
+echo running getmore_invalidation.js
+/home/jay/mongo/mongo jstests/core/getmore_invalidation.js
+echo running group1.js
+/home/jay/mongo/mongo jstests/core/group1.js
+echo running group2.js
+/home/jay/mongo/mongo jstests/core/group2.js
+echo running group3.js
+/home/jay/mongo/mongo jstests/core/group3.js
+echo running group4.js
+/home/jay/mongo/mongo jstests/core/group4.js
+echo running group5.js
+/home/jay/mongo/mongo jstests/core/group5.js
+echo running group6.js
+/home/jay/mongo/mongo jstests/core/group6.js
+echo running group7.js        # NULL coll pointer pointer in getValueFromReference from processCursorMultiNext
+/home/jay/mongo/mongo jstests/core/group7.js
+echo running group8.js
+/home/jay/mongo/mongo jstests/core/group8.js
+echo running group_empty.js
+/home/jay/mongo/mongo jstests/core/group_empty.js
+echo running grow_hash_table.js
+/home/jay/mongo/mongo jstests/core/grow_hash_table.js
+echo running hashindex1.js
+/home/jay/mongo/mongo jstests/core/hashindex1.js
+echo running hashtest1.js
+/home/jay/mongo/mongo jstests/core/hashtest1.js
+echo running hint1.js
+/home/jay/mongo/mongo jstests/core/hint1.js
+echo running hostinfo.js
+/home/jay/mongo/mongo jstests/core/hostinfo.js
+echo running id1.js
+/home/jay/mongo/mongo jstests/core/id1.js
+echo running idhack.js
+/home/jay/mongo/mongo jstests/core/idhack.js
+echo running in2.js
+/home/jay/mongo/mongo jstests/core/in2.js
+echo running in3.js
+/home/jay/mongo/mongo jstests/core/in3.js
+echo running in4.js
+/home/jay/mongo/mongo jstests/core/in4.js
+echo running in5.js
+/home/jay/mongo/mongo jstests/core/in5.js
+echo running in6.js
+/home/jay/mongo/mongo jstests/core/in6.js
+echo running in7.js
+/home/jay/mongo/mongo jstests/core/in7.js
+echo running in8.js
+/home/jay/mongo/mongo jstests/core/in8.js
+echo running inc1.js
+/home/jay/mongo/mongo jstests/core/inc1.js
+echo running inc2.js
+/home/jay/mongo/mongo jstests/core/inc2.js
+echo running inc3.js
+/home/jay/mongo/mongo jstests/core/inc3.js
+echo running inc-SERVER-7446.js
+/home/jay/mongo/mongo jstests/core/inc-SERVER-7446.js
+echo running index13.js
+/home/jay/mongo/mongo jstests/core/index13.js
+echo running index1.js
+/home/jay/mongo/mongo jstests/core/index1.js
+echo running index2.js
+/home/jay/mongo/mongo jstests/core/index2.js
+echo running index4.js
+/home/jay/mongo/mongo jstests/core/index4.js
+echo running index5.js
+/home/jay/mongo/mongo jstests/core/index5.js
+echo running index6.js
+/home/jay/mongo/mongo jstests/core/index6.js
+echo running index8.js
+/home/jay/mongo/mongo jstests/core/index8.js
+echo running index9.js
+/home/jay/mongo/mongo jstests/core/index9.js
+echo running indexa.js
+/home/jay/mongo/mongo jstests/core/indexa.js
+echo running indexapi.js
+/home/jay/mongo/mongo jstests/core/indexapi.js
+echo running index_arr1.js
+/home/jay/mongo/mongo jstests/core/index_arr1.js
+echo running index_arr2.js
+/home/jay/mongo/mongo jstests/core/index_arr2.js
+echo running index_big1.js
+/home/jay/mongo/mongo jstests/core/index_big1.js
+echo running index_bigkeys.js
+/home/jay/mongo/mongo jstests/core/index_bigkeys.js
+echo running index_bigkeys_nofail.js
+/home/jay/mongo/mongo jstests/core/index_bigkeys_nofail.js
+echo running index_bigkeys_update.js
+/home/jay/mongo/mongo jstests/core/index_bigkeys_update.js
+echo running indexb.js
+/home/jay/mongo/mongo jstests/core/indexb.js
+echo running index_bounds_number_edge_cases.js
+/home/jay/mongo/mongo jstests/core/index_bounds_number_edge_cases.js
+echo running index_check2.js
+/home/jay/mongo/mongo jstests/core/index_check2.js
+echo running index_check3.js
+/home/jay/mongo/mongo jstests/core/index_check3.js
+echo running index_check5.js
+/home/jay/mongo/mongo jstests/core/index_check5.js
+echo running index_check6.js
+/home/jay/mongo/mongo jstests/core/index_check6.js
+echo running index_check7.js
+/home/jay/mongo/mongo jstests/core/index_check7.js
+echo running indexc.js
+/home/jay/mongo/mongo jstests/core/indexc.js
+echo running index_create_too_many.js
+/home/jay/mongo/mongo jstests/core/index_create_too_many.js
+echo running index_create_with_nul_in_name.js
+/home/jay/mongo/mongo jstests/core/index_create_with_nul_in_name.js
+echo running index_diag.js
+/home/jay/mongo/mongo jstests/core/index_diag.js
+echo running indexd.js
+/home/jay/mongo/mongo jstests/core/indexd.js
+echo running index_dropdups_ignore.js
+/home/jay/mongo/mongo jstests/core/index_dropdups_ignore.js
+echo running indexe.js     
+/home/jay/mongo/mongo jstests/core/indexe.js
+echo running index_elemmatch1.js 
+/home/jay/mongo/mongo jstests/core/index_elemmatch1.js
+echo running indexes_on_indexes.js
+/home/jay/mongo/mongo jstests/core/indexes_on_indexes.js
+echo running index_filter_commands.js
+/home/jay/mongo/mongo jstests/core/index_filter_commands.js
+echo running indexf.js
+/home/jay/mongo/mongo jstests/core/indexf.js
+echo running indexg.js
+/home/jay/mongo/mongo jstests/core/indexg.js
+echo running index_id_desc.js
+/home/jay/mongo/mongo jstests/core/index_id_desc.js
+echo running index_id_options.js
+/home/jay/mongo/mongo jstests/core/index_id_options.js
+echo running indexj.js
+/home/jay/mongo/mongo jstests/core/indexj.js
+echo running indexl.js
+/home/jay/mongo/mongo jstests/core/indexl.js
+echo running index_many2.js
+/home/jay/mongo/mongo jstests/core/index_many2.js
+echo running index_many.js
+/home/jay/mongo/mongo jstests/core/index_many.js
+echo running indexm.js
+/home/jay/mongo/mongo jstests/core/indexm.js
+echo running indexn.js
+/home/jay/mongo/mongo jstests/core/indexn.js
+echo running indexOtherNamespace.js
+/home/jay/mongo/mongo jstests/core/indexOtherNamespace.js
+echo running index_partial_create_drop.js
+/home/jay/mongo/mongo jstests/core/index_partial_create_drop.js
+echo running index_partial_read_ops.js
+/home/jay/mongo/mongo jstests/core/index_partial_read_ops.js
+echo running index_partial_write_ops.js
+/home/jay/mongo/mongo jstests/core/index_partial_write_ops.js
+echo running indexp.js
+/home/jay/mongo/mongo jstests/core/indexp.js
+echo running index_plugins.js
+/home/jay/mongo/mongo jstests/core/index_plugins.js
+echo running indexr.js
+/home/jay/mongo/mongo jstests/core/indexr.js
+echo running indexs.js
+/home/jay/mongo/mongo jstests/core/indexs.js
+echo running index_sparse1.js
+/home/jay/mongo/mongo jstests/core/index_sparse1.js
+echo running index_sparse2.js
+/home/jay/mongo/mongo jstests/core/index_sparse2.js
+echo running index_stats.js
+/home/jay/mongo/mongo jstests/core/index_stats.js
+echo running indext.js
+/home/jay/mongo/mongo jstests/core/indext.js
+echo running indexu.js
+/home/jay/mongo/mongo jstests/core/indexu.js
+echo running indexv.js
+/home/jay/mongo/mongo jstests/core/indexv.js
+echo running in.js
+/home/jay/mongo/mongo jstests/core/in.js
+echo running insert1.js
+/home/jay/mongo/mongo jstests/core/insert1.js
+echo running insert2.js     
+/home/jay/mongo/mongo jstests/core/insert2.js
+echo running insert_id_undefined.js
+/home/jay/mongo/mongo jstests/core/insert_id_undefined.js
+echo running insert_illegal_doc.js
+/home/jay/mongo/mongo jstests/core/insert_illegal_doc.js
+echo running insert_long_index_key.js
+/home/jay/mongo/mongo jstests/core/insert_long_index_key.js
+echo running invalid_db_name.js
+/home/jay/mongo/mongo jstests/core/invalid_db_name.js
+echo running ismaster.js
+/home/jay/mongo/mongo jstests/core/ismaster.js
+echo running js1.js
+/home/jay/mongo/mongo jstests/core/js1.js
+echo running js2.js
+/home/jay/mongo/mongo jstests/core/js2.js
+echo running js3.js
+/home/jay/mongo/mongo jstests/core/js3.js
+echo running js4.js
+/home/jay/mongo/mongo jstests/core/js4.js
+echo running js5.js
+/home/jay/mongo/mongo jstests/core/js5.js
+echo running js7.js
+/home/jay/mongo/mongo jstests/core/js7.js
+echo running js8.js
+/home/jay/mongo/mongo jstests/core/js8.js
+echo running js9.js
+/home/jay/mongo/mongo jstests/core/js9.js
+echo running json1.js
+/home/jay/mongo/mongo jstests/core/json1.js
+echo running kill_cursors.js
+/home/jay/mongo/mongo jstests/core/kill_cursors.js
+echo running killop.js
+/home/jay/mongo/mongo jstests/core/killop.js
+echo running list_collections1.js
+/home/jay/mongo/mongo jstests/core/list_collections1.js
+echo running list_collections_filter.js
+/home/jay/mongo/mongo jstests/core/list_collections_filter.js
+echo running list_commands.js
+/home/jay/mongo/mongo jstests/core/list_commands.js
+echo running list_indexes_invalid.js
+/home/jay/mongo/mongo jstests/core/list_indexes_invalid.js
+echo running list_indexes.js
+/home/jay/mongo/mongo jstests/core/list_indexes.js
+echo running list_indexes_non_existent_ns.js
+/home/jay/mongo/mongo jstests/core/list_indexes_non_existent_ns.js
+echo running loadserverscripts.js
+/home/jay/mongo/mongo jstests/core/loadserverscripts.js
+echo running loglong.js
+/home/jay/mongo/mongo jstests/core/loglong.js
+echo running logprocessdetails.js
+/home/jay/mongo/mongo jstests/core/logprocessdetails.js
+echo running long_index_rename.js
+/home/jay/mongo/mongo jstests/core/long_index_rename.js
+echo running map1.js
+/home/jay/mongo/mongo jstests/core/map1.js
+echo running max_doc_size.js    
+/home/jay/mongo/mongo jstests/core/max_doc_size.js
+echo running maxscan.js
+/home/jay/mongo/mongo jstests/core/maxscan.js
+echo running max_time_ms.js
+/home/jay/mongo/mongo jstests/core/max_time_ms.js
+echo running minmax_edge.js
+/home/jay/mongo/mongo jstests/core/minmax_edge.js
+echo running minmax.js
+/home/jay/mongo/mongo jstests/core/minmax.js
+echo running mod1.js
+/home/jay/mongo/mongo jstests/core/mod1.js
+echo running mr1.js
+/home/jay/mongo/mongo jstests/core/mr1.js
+echo running mr2.js
+/home/jay/mongo/mongo jstests/core/mr2.js
+echo running mr3.js
+/home/jay/mongo/mongo jstests/core/mr3.js
+echo running mr4.js
+/home/jay/mongo/mongo jstests/core/mr4.js
+echo running mr5.js
+/home/jay/mongo/mongo jstests/core/mr5.js
+echo running mr_bigobject.js    
+/home/jay/mongo/mongo jstests/core/mr_bigobject.js
+echo running mr_bigobject_replace.js 
+/home/jay/mongo/mongo jstests/core/mr_bigobject_replace.js
+echo running mr_comments.js
+/home/jay/mongo/mongo jstests/core/mr_comments.js
+echo running mr_errorhandling.js
+/home/jay/mongo/mongo jstests/core/mr_errorhandling.js
+echo running mr_index2.js
+/home/jay/mongo/mongo jstests/core/mr_index2.js
+echo running mr_index3.js
+/home/jay/mongo/mongo jstests/core/mr_index3.js
+echo running mr_index.js
+/home/jay/mongo/mongo jstests/core/mr_index.js
+echo running mr_killop.js
+/home/jay/mongo/mongo jstests/core/mr_killop.js
+echo running mr_merge2.js
+/home/jay/mongo/mongo jstests/core/mr_merge2.js
+echo running mr_merge.js
+/home/jay/mongo/mongo jstests/core/mr_merge.js
+echo running mr_mutable_properties.js
+/home/jay/mongo/mongo jstests/core/mr_mutable_properties.js
+echo running mr_optim.js    # Long running. /home/jay/mongo/mongo-rocks commit reports IO error
+/home/jay/mongo/mongo jstests/core/mr_optim.js
+echo running mr_outreduce2.js
+/home/jay/mongo/mongo jstests/core/mr_outreduce2.js
+echo running mr_outreduce.js
+/home/jay/mongo/mongo jstests/core/mr_outreduce.js
+echo running mr_replaceIntoDB.js
+/home/jay/mongo/mongo jstests/core/mr_replaceIntoDB.js
+echo running mr_sort.js
+/home/jay/mongo/mongo jstests/core/mr_sort.js
+echo running mr_stored.js
+/home/jay/mongo/mongo jstests/core/mr_stored.js
+echo running mr_undef.js
+/home/jay/mongo/mongo jstests/core/mr_undef.js
+echo running multi2.js
+/home/jay/mongo/mongo jstests/core/multi2.js
+echo running multi.js
+/home/jay/mongo/mongo jstests/core/multi.js
+echo running multikey_geonear.js
+/home/jay/mongo/mongo jstests/core/multikey_geonear.js
+echo running nan.js
+/home/jay/mongo/mongo jstests/core/nan.js
+echo running natural.js
+/home/jay/mongo/mongo jstests/core/natural.js
+echo running ne1.js
+/home/jay/mongo/mongo jstests/core/ne1.js
+echo running ne2.js
+/home/jay/mongo/mongo jstests/core/ne2.js
+echo running ne3.js
+/home/jay/mongo/mongo jstests/core/ne3.js
+echo running nestedarr1.js  # Schema mismatch error from parquet/schema/data-model.c
+/home/jay/mongo/mongo jstests/core/nestedarr1.js 
+echo running nestedobj1.js  # Schema mismatch error from parquet/schema/data-model.c
+/home/jay/mongo/mongo jstests/core/nestedobj1.js
+echo running nin2.js
+/home/jay/mongo/mongo jstests/core/nin2.js
+echo running nin.js
+/home/jay/mongo/mongo jstests/core/nin.js
+echo running no_db_created.js
+/home/jay/mongo/mongo jstests/core/no_db_created.js
+echo running not1.js
+/home/jay/mongo/mongo jstests/core/not1.js
+echo running not2.js
+/home/jay/mongo/mongo jstests/core/not2.js
+echo running not3.js
+/home/jay/mongo/mongo jstests/core/not3.js
+echo running notablescan.js
+/home/jay/mongo/mongo jstests/core/notablescan.js
+echo running ns_length.js
+/home/jay/mongo/mongo jstests/core/ns_length.js
+echo running null2.js
+/home/jay/mongo/mongo jstests/core/null2.js
+echo running null_field_name.js
+/home/jay/mongo/mongo jstests/core/null_field_name.js
+echo running null.js
+/home/jay/mongo/mongo jstests/core/null.js
+echo running numberint.js
+/home/jay/mongo/mongo jstests/core/numberint.js
+echo running numberlong2.js
+/home/jay/mongo/mongo jstests/core/numberlong2.js
+echo running numberlong3.js
+/home/jay/mongo/mongo jstests/core/numberlong3.js
+echo running numberlong4.js
+/home/jay/mongo/mongo jstests/core/numberlong4.js
+echo running numberlong.js
+/home/jay/mongo/mongo jstests/core/numberlong.js
+echo running objid1.js
+/home/jay/mongo/mongo jstests/core/objid1.js
+echo running objid2.js
+/home/jay/mongo/mongo jstests/core/objid2.js
+echo running objid3.js
+/home/jay/mongo/mongo jstests/core/objid3.js
+echo running objid4.js
+/home/jay/mongo/mongo jstests/core/objid4.js
+echo running objid5.js
+/home/jay/mongo/mongo jstests/core/objid5.js
+echo running objid6.js
+/home/jay/mongo/mongo jstests/core/objid6.js
+echo running objid7.js
+/home/jay/mongo/mongo jstests/core/objid7.js
+echo running opcounters_active.js
+/home/jay/mongo/mongo jstests/core/opcounters_active.js
+echo running opcounters_write_cmd.js
+/home/jay/mongo/mongo jstests/core/opcounters_write_cmd.js
+echo running or1.js
+/home/jay/mongo/mongo jstests/core/or1.js
+echo running or2.js
+/home/jay/mongo/mongo jstests/core/or2.js
+echo running or3.js
+/home/jay/mongo/mongo jstests/core/or3.js
+echo running or4.js
+/home/jay/mongo/mongo jstests/core/or4.js
+echo running or5.js
+/home/jay/mongo/mongo jstests/core/or5.js
+echo running or6.js
+/home/jay/mongo/mongo jstests/core/or6.js
+echo running or7.js
+/home/jay/mongo/mongo jstests/core/or7.js
+echo running or8.js
+/home/jay/mongo/mongo jstests/core/or8.js
+echo running or9.js
+/home/jay/mongo/mongo jstests/core/or9.js
+echo running ora.js
+/home/jay/mongo/mongo jstests/core/ora.js
+echo running orb.js
+/home/jay/mongo/mongo jstests/core/orb.js
+echo running orc.js
+/home/jay/mongo/mongo jstests/core/orc.js
+echo running ord.js
+/home/jay/mongo/mongo jstests/core/ord.js
+echo running ore.js
+/home/jay/mongo/mongo jstests/core/ore.js
+echo running orf.js
+/home/jay/mongo/mongo jstests/core/orf.js
+echo running org.js
+/home/jay/mongo/mongo jstests/core/org.js
+echo running orh.js
+/home/jay/mongo/mongo jstests/core/orh.js
+echo running or_inexact.js
+/home/jay/mongo/mongo jstests/core/or_inexact.js
+echo running orj.js
+/home/jay/mongo/mongo jstests/core/orj.js
+echo running ork.js
+/home/jay/mongo/mongo jstests/core/ork.js
+echo running oro.js
+/home/jay/mongo/mongo jstests/core/oro.js
+echo running orp.js
+/home/jay/mongo/mongo jstests/core/orp.js
+echo running plan_cache_clear.js
+/home/jay/mongo/mongo jstests/core/plan_cache_clear.js
+echo running plan_cache_list_plans.js
+/home/jay/mongo/mongo jstests/core/plan_cache_list_plans.js
+echo running plan_cache_list_shapes.js
+/home/jay/mongo/mongo jstests/core/plan_cache_list_shapes.js
+echo running plan_cache_shell_helpers.js
+/home/jay/mongo/mongo jstests/core/plan_cache_shell_helpers.js
+echo running pop_server_13516.js
+/home/jay/mongo/mongo jstests/core/pop_server_13516.js
+echo running profile1.js
+/home/jay/mongo/mongo jstests/core/profile1.js
+echo running profile2.js
+/home/jay/mongo/mongo jstests/core/profile2.js
+echo running profile3.js
+/home/jay/mongo/mongo jstests/core/profile3.js
+echo running profile4.js  # _bson_as_avro_visit_xxx avro_schema_record_field_append returned with error 22
+/home/jay/mongo/mongo jstests/core/profile4.js
+echo running profile5.js
+/home/jay/mongo/mongo jstests/core/profile5.js
+echo running profile_no_such_db.js
+/home/jay/mongo/mongo jstests/core/profile_no_such_db.js
+echo running proj_key1.js
+/home/jay/mongo/mongo jstests/core/proj_key1.js
+echo running pseudocommand_db.js
+/home/jay/mongo/mongo jstests/core/pseudocommand_db.js
+echo running pull2.js
+/home/jay/mongo/mongo jstests/core/pull2.js
+echo running pullall2.js
+/home/jay/mongo/mongo jstests/core/pullall2.js
+echo running pullall.js
+/home/jay/mongo/mongo jstests/core/pullall.js
+echo running pull.js
+/home/jay/mongo/mongo jstests/core/pull.js
+echo running pull_or.js
+/home/jay/mongo/mongo jstests/core/pull_or.js
+echo running pull_remove1.js
+/home/jay/mongo/mongo jstests/core/pull_remove1.js
+echo running push2.js   # Network I/O error. Peer provided too small iovec
+/home/jay/mongo/mongo jstests/core/push2.js
+echo running pushall.js
+/home/jay/mongo/mongo jstests/core/pushall.js
+echo running push.js
+/home/jay/mongo/mongo jstests/core/push.js
+echo running push_sort.js
+/home/jay/mongo/mongo jstests/core/push_sort.js
+echo running query1.js
+/home/jay/mongo/mongo jstests/core/query1.js
+echo running queryoptimizer3.js # Failed to write object flushWAL
+/home/jay/mongo/mongo jstests/core/queryoptimizer3.js
+echo running queryoptimizer6.js
+/home/jay/mongo/mongo jstests/core/queryoptimizer6.js
+echo running queryoptimizera.js
+/home/jay/mongo/mongo jstests/core/queryoptimizera.js
+echo running read_after_optime.js
+/home/jay/mongo/mongo jstests/core/read_after_optime.js
+echo running recursion.js
+/home/jay/mongo/mongo jstests/core/recursion.js
+echo running ref2.js
+/home/jay/mongo/mongo jstests/core/ref2.js
+echo running ref3.js
+/home/jay/mongo/mongo jstests/core/ref3.js
+echo running ref4.js
+/home/jay/mongo/mongo jstests/core/ref4.js
+echo running ref.js
+/home/jay/mongo/mongo jstests/core/ref.js
+echo running regex2.js
+/home/jay/mongo/mongo jstests/core/regex2.js
+echo running regex3.js
+/home/jay/mongo/mongo jstests/core/regex3.js
+echo running regex4.js
+/home/jay/mongo/mongo jstests/core/regex4.js
+echo running regex5.js
+/home/jay/mongo/mongo jstests/core/regex5.js
+echo running regex6.js
+/home/jay/mongo/mongo jstests/core/regex6.js
+echo running regex7.js
+/home/jay/mongo/mongo jstests/core/regex7.js
+echo running regex8.js
+/home/jay/mongo/mongo jstests/core/regex8.js
+echo running regex9.js
+/home/jay/mongo/mongo jstests/core/regex9.js
+echo running regexa.js
+/home/jay/mongo/mongo jstests/core/regexa.js
+echo running regexb.js
+/home/jay/mongo/mongo jstests/core/regexb.js
+echo running regexc.js
+/home/jay/mongo/mongo jstests/core/regexc.js
+echo running regex_embed1.js
+/home/jay/mongo/mongo jstests/core/regex_embed1.js
+echo running regex.js
+/home/jay/mongo/mongo jstests/core/regex.js
+echo running regex_limit.js   # Network I/O error. Peer provided too small iovec
+/home/jay/mongo/mongo jstests/core/regex_limit.js
+echo running regex_not_id.js
+/home/jay/mongo/mongo jstests/core/regex_not_id.js
+echo running regex_options.js
+/home/jay/mongo/mongo jstests/core/regex_options.js
+echo running regex_util.js
+/home/jay/mongo/mongo jstests/core/regex_util.js
+echo running remove2.js
+/home/jay/mongo/mongo jstests/core/remove2.js
+echo running remove3.js
+/home/jay/mongo/mongo jstests/core/remove3.js
+echo running remove4.js
+/home/jay/mongo/mongo jstests/core/remove4.js
+echo running remove6.js       # Long running
+/home/jay/mongo/mongo jstests/core/remove6.js
+echo running remove7.js
+/home/jay/mongo/mongo jstests/core/remove7.js
+echo running remove8.js       # Long running
+/home/jay/mongo/mongo jstests/core/remove8.js
+echo running remove9.js       # Long running
+/home/jay/mongo/mongo jstests/core/remove9.js
+echo running removea.js       # In AlbaWriterLocal constructor open call returns with value -1
+/home/jay/mongo/mongo jstests/core/removea.js
+echo running removeb.js   # parquet::encodePQ::VisitJSON assert(json_is_array(dn_ch)) at line 555
+/home/jay/mongo/mongo jstests/core/removeb.js
+echo running removec.js
+/home/jay/mongo/mongo jstests/core/removec.js
+echo running remove.js
+/home/jay/mongo/mongo jstests/core/remove.js
+echo running remove_justone.js
+/home/jay/mongo/mongo jstests/core/remove_justone.js
+echo running remove_undefined.js
+/home/jay/mongo/mongo jstests/core/remove_undefined.js
+echo running rename2.js
+/home/jay/mongo/mongo jstests/core/rename2.js
+echo running rename3.js
+/home/jay/mongo/mongo jstests/core/rename3.js
+echo running rename4.js #_bson_as_avro_visit_double avro_schema_record_field_append() returned error 22
+/home/jay/mongo/mongo jstests/core/rename4.js
+echo running rename5.js
+/home/jay/mongo/mongo jstests/core/rename5.js
+echo running rename6.js
+/home/jay/mongo/mongo jstests/core/rename6.js
+echo running rename7.js
+/home/jay/mongo/mongo jstests/core/rename7.js
+echo running rename8.js
+/home/jay/mongo/mongo jstests/core/rename8.js
+echo running rename.js      # Long running
+/home/jay/mongo/mongo jstests/core/rename.js
+echo running rename_stayTemp.js
+/home/jay/mongo/mongo jstests/core/rename_stayTemp.js
+echo running repair_database.js
+/home/jay/mongo/mongo jstests/core/repair_database.js
+echo running repair_server12955.js
+/home/jay/mongo/mongo jstests/core/repair_server12955.js
+echo running return_key.js
+/home/jay/mongo/mongo jstests/core/return_key.js
+echo running role_management_helpers.js
+/home/jay/mongo/mongo jstests/core/role_management_helpers.js
+echo running run_program1.js
+/home/jay/mongo/mongo jstests/core/run_program1.js
+echo running server1470.js
+/home/jay/mongo/mongo jstests/core/server1470.js
+echo running server14747.js
+/home/jay/mongo/mongo jstests/core/server14747.js
+echo running server14753.js
+/home/jay/mongo/mongo jstests/core/server14753.js
+echo running server5346.js
+/home/jay/mongo/mongo jstests/core/server5346.js
+echo running server7756.js
+/home/jay/mongo/mongo jstests/core/server7756.js
+echo running server9385.js
+/home/jay/mongo/mongo jstests/core/server9385.js
+echo running server9547.js
+/home/jay/mongo/mongo jstests/core/server9547.js
+echo running set1.js
+/home/jay/mongo/mongo jstests/core/set1.js
+echo running set2.js
+/home/jay/mongo/mongo jstests/core/set2.js
+echo running set3.js
+/home/jay/mongo/mongo jstests/core/set3.js
+echo running set4.js
+/home/jay/mongo/mongo jstests/core/set4.js
+echo running set5.js
+/home/jay/mongo/mongo jstests/core/set5.js
+echo running set6.js
+/home/jay/mongo/mongo jstests/core/set6.js
+echo running set7.js    # processCursorClose assert about DBWPtr in guidDBWPtrMap
+/home/jay/mongo/mongo jstests/core/set7.js
+echo running set_param1.js
+/home/jay/mongo/mongo jstests/core/set_param1.js
+echo running shell1.js
+/home/jay/mongo/mongo jstests/core/shell1.js
+echo running shellkillop.js
+/home/jay/mongo/mongo jstests/core/shellkillop.js
+echo running shellstartparallel.js
+/home/jay/mongo/mongo jstests/core/shellstartparallel.js
+echo running shelltypes.js
+/home/jay/mongo/mongo jstests/core/shelltypes.js
+echo running shell_writeconcern.js
+/home/jay/mongo/mongo jstests/core/shell_writeconcern.js
+echo running show_record_id.js
+/home/jay/mongo/mongo jstests/core/show_record_id.js
+echo running single_batch.js # /home/jay/mongo/mongo-rocks commit reports IO error
+/home/jay/mongo/mongo jstests/core/single_batch.js
+echo running skip1.js
+/home/jay/mongo/mongo jstests/core/skip1.js
+echo running slice1.js
+/home/jay/mongo/mongo jstests/core/slice1.js
+echo running snapshot_queries.js # /home/jay/mongo/mongo-rocks commit reports IO error
+/home/jay/mongo/mongo jstests/core/snapshot_queries.js
+echo running sort10.js
+/home/jay/mongo/mongo jstests/core/sort10.js
+echo running sort1.js
+/home/jay/mongo/mongo jstests/core/sort1.js
+echo running sort2.js
+/home/jay/mongo/mongo jstests/core/sort2.js
+echo running sort3.js
+/home/jay/mongo/mongo jstests/core/sort3.js
+echo running sort4.js
+/home/jay/mongo/mongo jstests/core/sort4.js
+echo running sort5.js
+/home/jay/mongo/mongo jstests/core/sort5.js
+echo running sort6.js
+/home/jay/mongo/mongo jstests/core/sort6.js
+echo running sort7.js
+/home/jay/mongo/mongo jstests/core/sort7.js
+echo running sort8.js
+/home/jay/mongo/mongo jstests/core/sort8.js
+echo running sort9.js
+/home/jay/mongo/mongo jstests/core/sort9.js
+echo running sorta.js
+/home/jay/mongo/mongo jstests/core/sorta.js
+echo running sortb.js     # /home/jay/mongo/mongo-rocks commit reports IO error
+/home/jay/mongo/mongo jstests/core/sortb.js
+echo running sortc.js
+/home/jay/mongo/mongo jstests/core/sortc.js
+echo running sortd.js
+/home/jay/mongo/mongo jstests/core/sortd.js
+echo running sortf.js       # /home/jay/mongo/mongo-rocks commit reports IO error
+/home/jay/mongo/mongo jstests/core/sortf.js
+echo running sortg.js       # Network error. Too small iovec
+/home/jay/mongo/mongo jstests/core/sortg.js
+echo running sorth.js
+/home/jay/mongo/mongo jstests/core/sorth.js
+echo running sorti.js
+/home/jay/mongo/mongo jstests/core/sorti.js
+echo running sortj.js       # No-op hang
+/home/jay/mongo/mongo jstests/core/sortj.js
+echo running sortk.js
+/home/jay/mongo/mongo jstests/core/sortk.js
+echo running sortl.js
+/home/jay/mongo/mongo jstests/core/sortl.js
+echo running sort_numeric.js
+/home/jay/mongo/mongo jstests/core/sort_numeric.js
+echo running splitvector.js     # flushWAL - failed to write object
+/home/jay/mongo/mongo jstests/core/splitvector.js
+echo running stages_and_hash.js
+/home/jay/mongo/mongo jstests/core/stages_and_hash.js
+echo running stages_and_sorted.js
+/home/jay/mongo/mongo jstests/core/stages_and_sorted.js
+echo running stages_collection_scan.js
+/home/jay/mongo/mongo jstests/core/stages_collection_scan.js
+echo running stages_delete.js
+/home/jay/mongo/mongo jstests/core/stages_delete.js
+echo running stages_fetch.js
+/home/jay/mongo/mongo jstests/core/stages_fetch.js
+echo running stages_ixscan.js
+/home/jay/mongo/mongo jstests/core/stages_ixscan.js
+echo running stages_limit_skip.js
+/home/jay/mongo/mongo jstests/core/stages_limit_skip.js
+echo running stages_mergesort.js
+/home/jay/mongo/mongo jstests/core/stages_mergesort.js
+echo running stages_or.js
+/home/jay/mongo/mongo jstests/core/stages_or.js
+echo running stages_sort.js
+/home/jay/mongo/mongo jstests/core/stages_sort.js
+echo running stages_text.js
+/home/jay/mongo/mongo jstests/core/stages_text.js
+echo running startup_log.js
+/home/jay/mongo/mongo jstests/core/startup_log.js
+echo running storageDetailsCommand.js
+/home/jay/mongo/mongo jstests/core/storageDetailsCommand.js
+echo running storefunc.js
+/home/jay/mongo/mongo jstests/core/storefunc.js
+echo running string_with_nul_bytes.js
+/home/jay/mongo/mongo jstests/core/string_with_nul_bytes.js
+echo running sub1.js
+/home/jay/mongo/mongo jstests/core/sub1.js
+echo running system_profile.js
+/home/jay/mongo/mongo jstests/core/system_profile.js
+echo running tailable_skip_limit.js
+/home/jay/mongo/mongo jstests/core/tailable_skip_limit.js
+echo running temp_cleanup.js
+/home/jay/mongo/mongo jstests/core/temp_cleanup.js
+echo running test_command_line_test_helpers.js
+/home/jay/mongo/mongo jstests/core/test_command_line_test_helpers.js
+echo running test_list
+/home/jay/mongo/mongo jstests/core/test_list
+echo running testminmax.js
+/home/jay/mongo/mongo jstests/core/testminmax.js
+echo running top.js   # Schema mismatch error in data-model.cc
+/home/jay/mongo/mongo jstests/core/top.js
+echo running ts1.js
+/home/jay/mongo/mongo jstests/core/ts1.js
+echo running type1.js
+/home/jay/mongo/mongo jstests/core/type1.js
+echo running type2.js
+/home/jay/mongo/mongo jstests/core/type2.js
+echo running type3.js
+/home/jay/mongo/mongo jstests/core/type3.js
+echo running type4.js
+/home/jay/mongo/mongo jstests/core/type4.js
+echo running type5.js
+/home/jay/mongo/mongo jstests/core/type5.js
+echo running type6.js
+/home/jay/mongo/mongo jstests/core/type6.js
+echo running type7.js
+/home/jay/mongo/mongo jstests/core/type7.js
+echo running type8.js
+/home/jay/mongo/mongo jstests/core/type8.js
+echo running uniqueness.js
+/home/jay/mongo/mongo jstests/core/uniqueness.js
+echo running unset2.js
+/home/jay/mongo/mongo jstests/core/unset2.js
+echo running unset.js
+/home/jay/mongo/mongo jstests/core/unset.js
+echo running update2.js
+/home/jay/mongo/mongo jstests/core/update2.js
+echo running update3.js
+/home/jay/mongo/mongo jstests/core/update3.js
+echo running update5.js
+/home/jay/mongo/mongo jstests/core/update5.js
+echo running update6.js
+/home/jay/mongo/mongo jstests/core/update6.js
+echo running update7.js
+/home/jay/mongo/mongo jstests/core/update7.js
+echo running update8.js
+/home/jay/mongo/mongo jstests/core/update8.js
+echo running update9.js
+/home/jay/mongo/mongo jstests/core/update9.js
+echo running update_addToSet2.js
+/home/jay/mongo/mongo jstests/core/update_addToSet2.js
+echo running update_addToSet3.js
+/home/jay/mongo/mongo jstests/core/update_addToSet3.js
+echo running update_addToSet.js
+/home/jay/mongo/mongo jstests/core/update_addToSet.js
+echo running updatea.js
+/home/jay/mongo/mongo jstests/core/updatea.js
+echo running update_arraymatch1.js
+/home/jay/mongo/mongo jstests/core/update_arraymatch1.js
+echo running update_arraymatch2.js
+/home/jay/mongo/mongo jstests/core/update_arraymatch2.js
+echo running update_arraymatch3.js
+/home/jay/mongo/mongo jstests/core/update_arraymatch3.js
+echo running update_arraymatch4.js
+/home/jay/mongo/mongo jstests/core/update_arraymatch4.js
+echo running update_arraymatch5.js
+/home/jay/mongo/mongo jstests/core/update_arraymatch5.js
+echo running update_arraymatch6.js
+/home/jay/mongo/mongo jstests/core/update_arraymatch6.js
+echo running update_arraymatch7.js
+/home/jay/mongo/mongo jstests/core/update_arraymatch7.js
+echo running update_arraymatch8.js
+/home/jay/mongo/mongo jstests/core/update_arraymatch8.js
+echo running update_bit_examples.js
+/home/jay/mongo/mongo jstests/core/update_bit_examples.js
+echo running updateb.js
+/home/jay/mongo/mongo jstests/core/updateb.js
+echo running update_blank1.js
+/home/jay/mongo/mongo jstests/core/update_blank1.js
+echo running updatec.js
+/home/jay/mongo/mongo jstests/core/updatec.js
+echo running update_currentdate_examples.js
+/home/jay/mongo/mongo jstests/core/update_currentdate_examples.js
+echo running update_dbref.js
+/home/jay/mongo/mongo jstests/core/update_dbref.js
+echo running updated.js
+/home/jay/mongo/mongo jstests/core/updated.js
+echo running updatee.js
+/home/jay/mongo/mongo jstests/core/updatee.js
+echo running update_find_and_modify_id.js
+/home/jay/mongo/mongo jstests/core/update_find_and_modify_id.js
+echo running updatef.js     # /home/jay/mongo/mongo-rocks commit show IOError status.
+/home/jay/mongo/mongo jstests/core/updatef.js 
+echo running updateg.js
+/home/jay/mongo/mongo jstests/core/updateg.js
+echo running updateh.js
+/home/jay/mongo/mongo jstests/core/updateh.js
+echo running updatei.js
+/home/jay/mongo/mongo jstests/core/updatei.js
+echo running update_invalid1.js
+/home/jay/mongo/mongo jstests/core/update_invalid1.js
+echo running updatej.js
+/home/jay/mongo/mongo jstests/core/updatej.js
+echo running updatek.js
+/home/jay/mongo/mongo jstests/core/updatek.js
+echo running updatel.js
+/home/jay/mongo/mongo jstests/core/updatel.js
+echo running update_min_max_examples.js
+/home/jay/mongo/mongo jstests/core/update_min_max_examples.js
+echo running updatem.js
+/home/jay/mongo/mongo jstests/core/updatem.js
+echo running update_mul_examples.js
+/home/jay/mongo/mongo jstests/core/update_mul_examples.js
+echo running update_multi3.js
+/home/jay/mongo/mongo jstests/core/update_multi3.js
+echo running update_multi4.js
+/home/jay/mongo/mongo jstests/core/update_multi4.js
+echo running update_multi5.js
+/home/jay/mongo/mongo jstests/core/update_multi5.js
+echo running update_multi6.js
+/home/jay/mongo/mongo jstests/core/update_multi6.js
+echo running update_replace.js
+/home/jay/mongo/mongo jstests/core/update_replace.js
+echo running update_server-12848.js
+/home/jay/mongo/mongo jstests/core/update_server-12848.js
+echo running update_setOnInsert.js
+/home/jay/mongo/mongo jstests/core/update_setOnInsert.js
+echo running upsert_and.js
+/home/jay/mongo/mongo jstests/core/upsert_and.js
+echo running upsert_fields.js
+/home/jay/mongo/mongo jstests/core/upsert_fields.js
+echo running upsert_shell.js
+/home/jay/mongo/mongo jstests/core/upsert_shell.js
+echo running useindexonobjgtlt.js
+/home/jay/mongo/mongo jstests/core/useindexonobjgtlt.js
+echo running user_management_helpers.js
+/home/jay/mongo/mongo jstests/core/user_management_helpers.js
+echo running validate_cmd_ns.js
+/home/jay/mongo/mongo jstests/core/validate_cmd_ns.js
+echo running validate_pseudocommand_ns.js
+/home/jay/mongo/mongo jstests/core/validate_pseudocommand_ns.js
+echo running validate_user_documents.js
+/home/jay/mongo/mongo jstests/core/validate_user_documents.js
+echo running verify_update_mods.js
+/home/jay/mongo/mongo jstests/core/verify_update_mods.js
+echo running where1.js
+/home/jay/mongo/mongo jstests/core/where1.js
+echo running where2.js
+/home/jay/mongo/mongo jstests/core/where2.js
+echo running where3.js
+/home/jay/mongo/mongo jstests/core/where3.js
+echo running where4.js
+/home/jay/mongo/mongo jstests/core/where4.js
+echo running where5.js
+/home/jay/mongo/mongo jstests/core/where5.js
+echo running write_result.js
+/home/jay/mongo/mongo jstests/core/write_result.js
